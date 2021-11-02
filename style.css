@@ -1,0 +1,282 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Corbel;
+    font-style: normal;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #9B51E0;
+    margin: 0;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 58px;
+    color: #9B51E0;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #9B51E0;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 29px;
+    color: #646F75;
+    margin: 0;
+}
+
+h5{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646F75;
+}
+
+
+.violet-btn{
+    width: 145px;
+    height: 50px;
+    background: #9B51E0;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.violet-btn:hover {
+	background:linear-gradient(to bottom, #7e26d1 5%, #9b51e0 100%);
+	background-color:#7e26d1;
+}
+.violet-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.white-btn{
+    width: 145px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #646F75;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #646F75;
+}
+.white-btn:hover {
+	background:linear-gradient(to bottom, #7e26d1 5%, #9b51e0 100%);
+	background-color:#7e26d1;
+}
+.white-btn:active {
+	position:relative;
+	top:1px;
+}
+
+/* HEADER */
+
+header{
+    height: 900px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    margin-left: 11.45%;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    margin-right: 11.45%;
+}
+
+
+.nav-list-item{
+    display: inline-block;
+    padding-left: 30px;
+}
+.nav-list-item a{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #646F75;
+    margin: 0;
+    text-decoration: none;
+}
+.nav-list-item a:hover{
+    text-shadow: 0 0 1px black;
+}
+
+
+.header-content{
+    display: flex;
+    width: 100%;
+}
+
+.left-content-box{
+    margin-left: 11.45%;
+    margin-top: 291px;
+    width: 31.59%;
+}
+.content-text{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.right-content-box{
+    margin-right: 32px;
+    margin-top: 131px;
+}
+
+/* TARIFFS */
+
+.tariffs{
+    width: 100%;
+    background-color: #DFDBF5;
+    padding-bottom: 172px;
+}
+.tariffs-title{
+    display: flex;
+    justify-content: center;
+}
+.tariffs-title h2{
+    margin: 0;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+.tariffs-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11.45%;
+    margin-right: 11.45%;
+}
+.tariffs-box-content{
+    width: 30%;
+    height: 450px;
+    border-radius: 45px;
+}
+.tariffs-box-content h3{
+    text-align: center;
+}
+.white-box{
+    background-color: #FFFFFF;
+}
+.violet-box{
+    background-color: #9B51E0;
+}
+.violet-box h3{
+    color: #FFFFFF;
+}
+.checkbox{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/checkbox-gray.svg);
+    margin-left: 54px;
+    margin-top: -2px;
+}
+.violet-box .checkbox {
+    background-image: url(./img/checkbox-white.svg);
+}
+.check{
+    margin-left: 95px;
+    margin-top: -4px;
+    margin-bottom: 24px;
+}
+.violet-box .check {
+    color: #FFFFFF;
+}
+.price-btn{
+    margin-left: 40px;
+    padding: 0;
+}
+.price{
+    font-weight: 400;
+    font-size: 48px;
+    color: #646F75;
+    margin-right: 21px;
+}
+.violet-box .price{
+    color: #FFFFFF;
+}
+.white-btn-hover:hover{
+    color: #FFFFFF;
+}
+
+
+
+
+/* ABOUT US */
+
+.about{
+    width: 100%;
+    height: 900px;
+}
+.about-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.about-content{
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 11.45%;
+    margin-right: 13.26%;
+}
+.about-content-box{
+    display: flex;
+    width: 30%;
+    height: 230px;
+    background: #DFDBF5;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* FOOTER */
+
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #9B51E0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.privacy{
+    justify-content: center;
+    text-align: center;
+}
+.privacy h5{
+    margin: 0;
+    color: #FFFFFF;
+}
+.social{
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+}
